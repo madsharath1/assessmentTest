@@ -3,7 +3,7 @@ module.exports = {
     title : 'My Store',
     firstname : 'testfirstname',
     lastname : 'testlastname',
-    emailId : 'test142@somemail.com',
+    emailId : 'test143@somemail.com',
     password : 'pwd123',
     bday:'2',
     bmonth:'1',
