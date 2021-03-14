@@ -1,0 +1,208 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615725631923' stop='1615725734146'>
+    <name>Perform User Registration and order product: As a user I can register and try to order the product</name>
+    <title>Perform User Registration and order product: As a user I can register and try to order the product</title>
+    <test-cases>
+        <test-case start='1615725631924' status='passed' stop='1615725631928'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725631928' status='passed' stop='1615725643002'>
+            <name>Given Open the url and verify using title</name>
+            <title>Given Open the url and verify using title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615725631931' status='passed' stop='1615725631931'>
+                    <name>Opening the Url</name>
+                    <title>Opening the Url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725642984' status='passed' stop='1615725642999'>
+                    <name>Verifying the url</name>
+                    <title>Verifying the url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725643002' status='passed' stop='1615725663653'>
+            <name>When I perform user registration</name>
+            <title>When I perform user registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615725643003' status='passed' stop='1615725643003'>
+                    <name>Clicking on signUp</name>
+                    <title>Clicking on signUp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725648645' status='passed' stop='1615725648645'>
+                    <name>Adding emailId to register</name>
+                    <title>Adding emailId to register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725654045' status='passed' stop='1615725654045'>
+                    <name>Adding the personal details</name>
+                    <title>Adding the personal details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725656476' status='passed' stop='1615725663652'>
+                    <name>Validating if correct emailID has been fetched</name>
+                    <title>Validating if correct emailID has been fetched</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725663653' status='passed' stop='1615725666732'>
+            <name>Then User registration is successful</name>
+            <title>Then User registration is successful</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615725663654' status='passed' stop='1615725663654'>
+                    <name>Validating successful registration</name>
+                    <title>Validating successful registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725666732' status='passed' stop='1615725731068'>
+            <name>When I try to add the product after user registration</name>
+            <title>When I try to add the product after user registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615725666733' status='passed' stop='1615725666733'>
+                    <name>Searching for the product: Printed Summer Dress</name>
+                    <title>Searching for the product: Printed Summer Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725674610' status='passed' stop='1615725674610'>
+                    <name>Successfully found the product: Printed Summer Dress</name>
+                    <title>Successfully found the product: Printed Summer Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725674610' status='passed' stop='1615725699311'>
+                    <name>Adding this product to cart</name>
+                    <title>Adding this product to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725699311' status='passed' stop='1615725699311'>
+                    <name>Performing proceed to checkout</name>
+                    <title>Performing proceed to checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725699311' status='undefined'>
+                    <name>Proceding with summary page</name>
+                    <title>Proceding with summary page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1615725706652' status='undefined'>
+                            <name>Proceding with address page</name>
+                            <title>Proceding with address page</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1615725713795' status='passed' stop='1615725731067'>
+                                    <name>Proceding with shipping page</name>
+                                    <title>Proceding with shipping page</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725731069' status='passed' stop='1615725734144'>
+            <name>Then Correct product is added before the payment</name>
+            <title>Then Correct product is added before the payment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615725731069' status='passed' stop='1615725731069'>
+                    <name>Verifying if the product is correctly fetched on payments page</name>
+                    <title>Verifying if the product is correctly fetched on payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615725734143' status='passed' stop='1615725734143'>
+                    <name>Verified that the product successfully added is: Printed Summer Dress</name>
+                    <title>Verified that the product successfully added is: Printed Summer Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615725734144' status='passed' stop='1615725734145'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

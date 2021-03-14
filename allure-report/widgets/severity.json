@@ -1,0 +1,61 @@
+[ {
+  "uid" : "6984d275cdf44a8d",
+  "name" : "Then Correct product is added before the payment",
+  "time" : {
+    "start" : 1615725731069,
+    "stop" : 1615725734144,
+    "duration" : 3075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fca7bffa3da589be",
+  "name" : "When I perform user registration",
+  "time" : {
+    "start" : 1615725643002,
+    "stop" : 1615725663653,
+    "duration" : 20651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8784ebd0d5bffcf6",
+  "name" : "When I try to add the product after user registration",
+  "time" : {
+    "start" : 1615725666732,
+    "stop" : 1615725731068,
+    "duration" : 64336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beb20285134826c6",
+  "name" : "",
+  "time" : {
+    "start" : 1615725734144,
+    "stop" : 1615725734145,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4622fa2f4c686a",
+  "name" : "Then User registration is successful",
+  "time" : {
+    "start" : 1615725663653,
+    "stop" : 1615725666732,
+    "duration" : 3079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dc11d03b4786f93",
+  "name" : "Given Open the url and verify using title",
+  "time" : {
+    "start" : 1615725631928,
+    "stop" : 1615725643002,
+    "duration" : 11074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

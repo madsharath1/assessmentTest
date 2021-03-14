@@ -1,0 +1,98 @@
+{
+  "uid" : "6984d275cdf44a8d",
+  "name" : "Then Correct product is added before the payment",
+  "fullName" : "Perform User Registration and order product: As a user I can register and try to order the product.Then Correct product is added before the payment",
+  "historyId" : "897b56e4abcba752369775c9ba94cf6c",
+  "time" : {
+    "start" : 1615725731069,
+    "stop" : 1615725734144,
+    "duration" : 3075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verifying if the product is correctly fetched on payments page",
+      "time" : {
+        "start" : 1615725731069,
+        "stop" : 1615725731069,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verified that the product successfully added is: Printed Summer Dress",
+      "time" : {
+        "start" : 1615725734143,
+        "stop" : 1615725734143,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Correct product is added before the payment"
+  }, {
+    "name" : "package",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6984d275cdf44a8d.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

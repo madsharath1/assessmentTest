@@ -1,0 +1,173 @@
+{
+  "uid" : "8784ebd0d5bffcf6",
+  "name" : "When I try to add the product after user registration",
+  "fullName" : "Perform User Registration and order product: As a user I can register and try to order the product.When I try to add the product after user registration",
+  "historyId" : "a30626c0807748eee78cc9b66600bb",
+  "time" : {
+    "start" : 1615725666732,
+    "stop" : 1615725731068,
+    "duration" : 64336
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Searching for the product: Printed Summer Dress",
+      "time" : {
+        "start" : 1615725666733,
+        "stop" : 1615725666733,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Successfully found the product: Printed Summer Dress",
+      "time" : {
+        "start" : 1615725674610,
+        "stop" : 1615725674610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Adding this product to cart",
+      "time" : {
+        "start" : 1615725674610,
+        "stop" : 1615725699311,
+        "duration" : 24701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Performing proceed to checkout",
+      "time" : {
+        "start" : 1615725699311,
+        "stop" : 1615725699311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceding with summary page",
+      "time" : {
+        "start" : 1615725699311,
+        "stop" : 0,
+        "duration" : -1615725699311
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Proceding with address page",
+        "time" : {
+          "start" : 1615725706652,
+          "stop" : 0,
+          "duration" : -1615725706652
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "Proceding with shipping page",
+          "time" : {
+            "start" : 1615725713795,
+            "stop" : 1615725731067,
+            "duration" : 17272
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I try to add the product after user registration"
+  }, {
+    "name" : "package",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8784ebd0d5bffcf6.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}
