@@ -8,11 +8,10 @@ class baseSetup{
         browser.url('/');
         browser.maximizeWindow()
         console.log('-------------Opened the url------------------');
-        browser.pause(3000)
-        allureReporting.startStep('Verifying the url')
         let title =   homePage.getPageTitle()
         console.log('TItle of the page is: '+title)
-        // browser.pause(3000)   
+        expect(browser).toHaveTitle('My Store');
+        allureReporting.startStep('Url has been verified using title')
         allureReporting.endStep()
     }
 }

@@ -1,0 +1,56 @@
+{
+  "uid" : "7ddf880b65a53160",
+  "name" : "",
+  "fullName" : "Perform User Registration and order product: As a user I can register and try to order the product.",
+  "historyId" : "548c0268f56945598bcf02952cfaa182",
+  "time" : {
+    "start" : 1615814436005,
+    "stop" : 1615814436009,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ddf880b65a53160.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

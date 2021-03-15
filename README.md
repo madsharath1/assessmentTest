@@ -18,14 +18,8 @@ Project has been implemented with WebdriverIO, having BDD cucumber framework wit
 Page Object model has been implemented for screens.
 
 Execution steps are as below:
-	1. Testdata setup: update the emailID in ./resources/testdata.js file 
-		increment last value by 1 before every run
-		e.g. previous test data has emailId : 'test143@somemail.com', 
-			 new test data will have emailId : 'test144@somemail.com'
+	1. Execute: from terminal, run npx wdio wdio.conf.js
 
-
-	2. Execute: from terminal, run npx wdio wdio.conf.js
-
-	3. Report accessing: post run, generate and open allure report using below commands individually
+	2. Report accessing: post run, generate and open allure report using below commands individually
 		a. allure generate
 		b. allure open

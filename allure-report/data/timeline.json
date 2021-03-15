@@ -4,92 +4,92 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Given Open the url and verify using title",
-      "uid" : "9dc11d03b4786f93",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1615725631928,
-        "stop" : 1615725643002,
-        "duration" : 11074
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-89.0.4389.82" ]
-    }, {
-      "name" : "When I try to add the product after user registration",
-      "uid" : "8784ebd0d5bffcf6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1615725666732,
-        "stop" : 1615725731068,
-        "duration" : 64336
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-89.0.4389.82" ]
-    }, {
-      "name" : "",
-      "uid" : "beb20285134826c6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1615725734144,
-        "stop" : 1615725734145,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-89.0.4389.82" ]
-    }, {
-      "name" : "Then Correct product is added before the payment",
-      "uid" : "6984d275cdf44a8d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1615725731069,
-        "stop" : 1615725734144,
-        "duration" : 3075
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-89.0.4389.82" ]
-    }, {
       "name" : "When I perform user registration",
-      "uid" : "fca7bffa3da589be",
+      "uid" : "6d34bda0ec8cec85",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1615725643002,
-        "stop" : 1615725663653,
-        "duration" : 20651
+        "start" : 1615814444141,
+        "stop" : 1615814456134,
+        "duration" : 11993
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-89.0.4389.82" ]
     }, {
       "name" : "Then User registration is successful",
-      "uid" : "9f4622fa2f4c686a",
+      "uid" : "5579ef6e26146ea0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1615725663653,
-        "stop" : 1615725666732,
-        "duration" : 3079
+        "start" : 1615814456135,
+        "stop" : 1615814456276,
+        "duration" : 141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Given Open the url and verify using title",
+      "uid" : "42ae617b8b2dfa14",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814436009,
+        "stop" : 1615814444140,
+        "duration" : 8131
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-89.0.4389.82" ]
     }, {
       "name" : "",
-      "uid" : "d1ad500d8af684c",
+      "uid" : "da088875d8e0198c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1615725631924,
-        "stop" : 1615725631928,
+        "start" : 1615814476021,
+        "stop" : 1615814476023,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "",
+      "uid" : "7ddf880b65a53160",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814436005,
+        "stop" : 1615814436009,
         "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "When I try to add the product after user registration",
+      "uid" : "d33a4761c0278aa5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814456276,
+        "stop" : 1615814475805,
+        "duration" : 19529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Then Correct product is added before the payment",
+      "uid" : "812f1a7f92e73d11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615814475806,
+        "stop" : 1615814476021,
+        "duration" : 215
       },
       "flaky" : false,
       "newFailed" : false,

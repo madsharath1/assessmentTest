@@ -1,0 +1,113 @@
+{
+  "uid" : "812f1a7f92e73d11",
+  "name" : "Then Correct product is added before the payment",
+  "fullName" : "Perform User Registration and order product: As a user I can register and try to order the product.Then Correct product is added before the payment",
+  "historyId" : "897b56e4abcba752369775c9ba94cf6c",
+  "time" : {
+    "start" : 1615814475806,
+    "stop" : 1615814476021,
+    "duration" : 215
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Validating if the actual product picked is the expected one",
+      "time" : {
+        "start" : 1615814475807,
+        "stop" : 1615814475807,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Checking product on payments page",
+      "time" : {
+        "start" : 1615814475807,
+        "stop" : 0,
+        "duration" : -1615814475807
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Product has been confimed to be as expected",
+        "time" : {
+          "start" : 1615814476020,
+          "stop" : 1615814476020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Correct product is added before the payment"
+  }, {
+    "name" : "package",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "812f1a7f92e73d11.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "42ae617b8b2dfa14",
+  "name" : "Given Open the url and verify using title",
+  "fullName" : "Perform User Registration and order product: As a user I can register and try to order the product.Given Open the url and verify using title",
+  "historyId" : "7dccb01606e588cb5694af2ae32ad4ed",
+  "time" : {
+    "start" : 1615814436009,
+    "stop" : 1615814444140,
+    "duration" : 8131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Opening the Url",
+      "time" : {
+        "start" : 1615814436013,
+        "stop" : 1615814436013,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Url has been verified using title",
+      "time" : {
+        "start" : 1615814444136,
+        "stop" : 1615814444137,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Open the url and verify using title"
+  }, {
+    "name" : "package",
+    "value" : "Perform User Registration and order product: As a user I can register and try to order the product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42ae617b8b2dfa14.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}
